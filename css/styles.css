@@ -1,6 +1,7 @@
 body {
     background-color: #FFFFFF;
-    font-family: 'Roboto';
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -8,12 +9,48 @@ a {
     text-decoration: none;
 }
 
-.nav-link {
-    font-family: 'Roboto';
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+h3 {
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+footer {
+    background-color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    text-align: left;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.studio {
+    color:#2E2F42;
+}
+
+.studio-down {
+    color: #F4F4FD;
+}
+
+.nav-link {
+    font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-transform: none;
@@ -56,10 +93,9 @@ a {
 
 .hero-title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
@@ -84,17 +120,17 @@ a {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.features-section-text {
+.section-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -104,7 +140,7 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -113,12 +149,16 @@ a {
 
 .section-team {
     background-color: #F4F4FD;
-}
-
-.section-team-title {
     text-align: center;
 }
 
-footer {
-    text-align: left;
+.section-team-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
