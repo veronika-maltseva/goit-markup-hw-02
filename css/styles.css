@@ -1,8 +1,14 @@
 body {
     background-color: #FFFFFF;
+    font-family: 'Roboto';
 }
 
-.header-nav {
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.nav-link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -13,8 +19,28 @@ body {
     text-transform: none;
 }
 
-.header-nav:hover,
-.header-nav:focus {
+.nav-link:hover,
+.nav-link:focus {
+    color: #404BBF;
+}
+
+.list {
+    list-style: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
     color: #404BBF;
 }
 
