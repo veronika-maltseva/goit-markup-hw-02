@@ -181,8 +181,11 @@ h3 {
 
 .footer {
     background-color: var(--logo-up-nav-cl);
+    text-align: left;
+}
+
+.footer-paragraph {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--logo-down-cl);
-    text-align: left;
 }
